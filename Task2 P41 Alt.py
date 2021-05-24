@@ -86,8 +86,8 @@ def findInTree(colourName):
 print("The position is ", findInTree("Purple"))
 
 #Task2.6
-def outputTree(index):
+def outputTree():
     print(BinaryTree.sort(key=lambda node: node.Data))
     for x in range(len(BinaryTree)):
         print(BinaryTree[x].Data)
-outputTree(0)
+outputTree()
